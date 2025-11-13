@@ -2,20 +2,16 @@
 <html>
 <head>
     <title>EAS Demonstration</title>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
-
-<h1>EAS Demonstration</h1>
-<p>© Chang-Chieh Cheng, ITSC, NYCU</p>
+<github-md>
+# EAS Demonstration
+## © Chang-Chieh Cheng, ITSC, NYCU
 
 <div id="markdown-content">Target audio $\bar{A}$:</div>
 <audio controls><source src="daisy4.mp4" type="audio/mp4"> </audio>
 <audio controls><source src="iloveu.mp4" type="audio/mp4"></audio>
 <audio controls><source src="daisy4_MSE_g30_r6_n162_e9.mp4" type="audio/mp4"></audio>
-<script>
-    const markdownDiv = document.getElementById('markdown-content');
-    markdownDiv.innerHTML = marked.parse(markdownDiv.innerText);
-</script>
+</github-md>
 </body>
 </html>
